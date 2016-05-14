@@ -1,0 +1,163 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+*/
+
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+
+
+
+/*ETIQUETAS*/
+body{
+background-image: url(../img/fondo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1{
+font-family: 'Shadows Into Light', cursive;
+color: purple;
+margin-left: 50px;
+font-size: 60px;
+text-align: center; 
+
+
+}
+
+h2{
+font-family: 'abel', cursive;
+color: black;
+margin-left: 10px;
+font-size: 20px;
+text-align: left; 
+
+}
+
+h3{
+font-family: 'Shadows Into Light', cursive;;
+color: white;
+font-size: 30px;
+text-align: center; 
+}
+
+h4{
+font-family: 'Shadows Into Light', cursive;
+color: purple;
+margin-left: 15px;
+font-size: 60px;
+position: absolute;
+top: 10px;
+width:320px;
+
+}
+h5{
+font-family: 'abel', cursive;
+color: purple;
+margin-left: 10px;
+font-size: 15px;
+text-align: left; 
+
+}
+h6{
+font-family: 'Shadows Into Light', cursive;
+color: purple;
+margin-left: 10px;
+font-size: 15px;
+text-align: justify; 
+
+}
+header{
+	width: 1000px;
+	height: 100 px;
+	background: rgba(255,255,255,10,70);
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: #9cb369 url(images/pattern.png);
+border-radius: 10px;
+
+}
+ul{
+margin: auto;
+padding-top: 4px;
+}
+
+li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: green;
+	margin: 3px;s
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; 
+
+}
+
+section{
+	width: 600px;
+	background: gray;
+	height: 600px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+aside{
+
+	width: 360px;
+	background:silver;
+	height: 600px;
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+
+footer{
+width: 1000px;
+height: 80px;
+background:maroon;
+float: left;
+margin-top: 10px;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+p{
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 24px;
+	padding: 10px;
+	text-align: justify;
+}
+figure {
+	display: table;
+}
+ figcaption {
+	display: table-cell; 
+	vertical-align: middle;
+	text-align: justify;
+	font-family: 'abel', cursive;
+}
+
+
+/*CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: red; text-decoration: none;}
+.menu:visited{color: red; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{color: white; text-decoration: none;}
+
+/*SEUDO CLASES*/
+
